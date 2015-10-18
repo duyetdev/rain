@@ -1,0 +1,21 @@
+{
+  "name": "rain",
+  "version": "0.0.0",
+  "homepage": "https://github.com/duyetdev/rain",
+  "authors": [
+    "duyetdev <me@duyetdev.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jPlayer": "jplayer#~2.9.2",
+    "jquery": "~2.1.4"
+  }
+}
