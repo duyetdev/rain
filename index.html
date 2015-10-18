@@ -14,18 +14,22 @@
 
 </head>
 <body>
-	<div id="player" style="width: 0px; height: 0px;">
-		<img id="jp_poster_0" style="width: 0px; height: 0px; display: none;">
-		<audio id="jp_audio_0" preload="none" src="assets/audio/0.m4a"></audio>
-	</div>
+	<div id="app">
+		<div id="player" style="width: 0px; height: 0px;">
+			<img id="jp_poster_0" style="width: 0px; height: 0px; display: none;">
+			<audio id="jp_audio_0" preload="none" src="assets/audio/0.m4a"></audio>
+		</div>
 
-	<div id="volumeDiv" style="display: block;">
-		<a href="javascript:return false;" onclick="volumeDownOrPause();" title="Volume">
-			<img id="volume" src="assets/images/volumeWhite0.png" alt="">
-		</a>
+		<div id="volumeDiv" style="display: block;">
+			<a href="javascript:return false;" onclick="volumeDownOrPause();" title="Volume">
+				<img id="volume" src="assets/images/volumeWhite0.png" alt="">
+			</a>
+		</div>
 	</div>
 
 <script src="assets/lib/jquery/dist/jquery.min.js"></script>
+<script src="assets/lib/jPlayer/dist/jplayer/jquery.jplayer.min.js"></script>
+<script src="assets/js/app.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
